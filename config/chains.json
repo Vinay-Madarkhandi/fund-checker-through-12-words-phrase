@@ -1,0 +1,224 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-04",
+  "chains": {
+    "evm": {
+      "ethereum": {
+        "name": "Ethereum Mainnet",
+        "chainId": 1,
+        "rpc": [
+          "https://eth.llamarpc.com",
+          "https://rpc.ankr.com/eth",
+          "https://ethereum.publicnode.com"
+        ],
+        "explorer": "https://etherscan.io",
+        "explorerApi": "https://api.etherscan.io/api",
+        "nativeSymbol": "ETH",
+        "nativeDecimals": 18
+      },
+      "bsc": {
+        "name": "BNB Smart Chain",
+        "chainId": 56,
+        "rpc": [
+          "https://bsc-dataseed1.binance.org",
+          "https://rpc.ankr.com/bsc",
+          "https://bsc.publicnode.com"
+        ],
+        "explorer": "https://bscscan.com",
+        "explorerApi": "https://api.bscscan.com/api",
+        "nativeSymbol": "BNB",
+        "nativeDecimals": 18
+      },
+      "polygon": {
+        "name": "Polygon",
+        "chainId": 137,
+        "rpc": [
+          "https://polygon-rpc.com",
+          "https://rpc.ankr.com/polygon",
+          "https://polygon.llamarpc.com"
+        ],
+        "explorer": "https://polygonscan.com",
+        "explorerApi": "https://api.polygonscan.com/api",
+        "nativeSymbol": "MATIC",
+        "nativeDecimals": 18
+      },
+      "avalanche": {
+        "name": "Avalanche C-Chain",
+        "chainId": 43114,
+        "rpc": [
+          "https://api.avax.network/ext/bc/C/rpc",
+          "https://rpc.ankr.com/avalanche",
+          "https://avalanche.public-rpc.com"
+        ],
+        "explorer": "https://snowtrace.io",
+        "explorerApi": "https://api.snowtrace.io/api",
+        "nativeSymbol": "AVAX",
+        "nativeDecimals": 18
+      },
+      "arbitrum": {
+        "name": "Arbitrum One",
+        "chainId": 42161,
+        "rpc": [
+          "https://arb1.arbitrum.io/rpc",
+          "https://rpc.ankr.com/arbitrum",
+          "https://arbitrum.llamarpc.com"
+        ],
+        "explorer": "https://arbiscan.io",
+        "explorerApi": "https://api.arbiscan.io/api",
+        "nativeSymbol": "ETH",
+        "nativeDecimals": 18
+      },
+      "optimism": {
+        "name": "Optimism",
+        "chainId": 10,
+        "rpc": [
+          "https://mainnet.optimism.io",
+          "https://rpc.ankr.com/optimism",
+          "https://optimism.llamarpc.com"
+        ],
+        "explorer": "https://optimistic.etherscan.io",
+        "explorerApi": "https://api-optimistic.etherscan.io/api",
+        "nativeSymbol": "ETH",
+        "nativeDecimals": 18
+      },
+      "base": {
+        "name": "Base",
+        "chainId": 8453,
+        "rpc": [
+          "https://mainnet.base.org",
+          "https://base.llamarpc.com",
+          "https://base.publicnode.com"
+        ],
+        "explorer": "https://basescan.org",
+        "explorerApi": "https://api.basescan.org/api",
+        "nativeSymbol": "ETH",
+        "nativeDecimals": 18
+      },
+      "fantom": {
+        "name": "Fantom Opera",
+        "chainId": 250,
+        "rpc": [
+          "https://rpc.ftm.tools",
+          "https://rpc.ankr.com/fantom",
+          "https://fantom.publicnode.com"
+        ],
+        "explorer": "https://ftmscan.com",
+        "explorerApi": "https://api.ftmscan.com/api",
+        "nativeSymbol": "FTM",
+        "nativeDecimals": 18
+      }
+    },
+    "solana": {
+      "name": "Solana Mainnet",
+      "rpc": [
+        "https://api.mainnet-beta.solana.com",
+        "https://solana-api.projectserum.com",
+        "https://rpc.ankr.com/solana"
+      ],
+      "explorer": "https://solscan.io",
+      "nativeSymbol": "SOL",
+      "nativeDecimals": 9
+    },
+    "bitcoin": {
+      "name": "Bitcoin Mainnet",
+      "apis": [
+        "https://blockstream.info/api",
+        "https://blockchain.info",
+        "https://mempool.space/api"
+      ],
+      "explorer": "https://blockstream.info",
+      "nativeSymbol": "BTC",
+      "nativeDecimals": 8
+    },
+    "sui": {
+      "name": "Sui Mainnet",
+      "rpc": [
+        "https://fullnode.mainnet.sui.io:443",
+        "https://sui-mainnet.nodeinfra.com"
+      ],
+      "explorer": "https://suiscan.xyz",
+      "nativeSymbol": "SUI",
+      "nativeDecimals": 9
+    },
+    "aptos": {
+      "name": "Aptos Mainnet",
+      "rpc": [
+        "https://fullnode.mainnet.aptoslabs.com/v1",
+        "https://aptos-mainnet.nodeinfra.com"
+      ],
+      "explorer": "https://aptoscan.com",
+      "nativeSymbol": "APT",
+      "nativeDecimals": 8
+    },
+    "tron": {
+      "name": "Tron Mainnet",
+      "api": "https://api.trongrid.io",
+      "rpc": [
+        "https://api.trongrid.io/jsonrpc"
+      ],
+      "explorer": "https://tronscan.org",
+      "nativeSymbol": "TRX",
+      "nativeDecimals": 6
+    },
+    "cardano": {
+      "name": "Cardano Mainnet",
+      "api": "https://cardano-mainnet.blockfrost.io/api/v0",
+      "requiresApiKey": true,
+      "apiKeyUrl": "https://blockfrost.io/",
+      "explorer": "https://cardanoscan.io",
+      "nativeSymbol": "ADA",
+      "nativeDecimals": 6
+    },
+    "cosmos": {
+      "name": "Cosmos Hub",
+      "rpc": [
+        "https://cosmos-rpc.polkachu.com",
+        "https://rpc-cosmoshub.blockapsis.com"
+      ],
+      "api": [
+        "https://cosmos-rest.publicnode.com",
+        "https://api-cosmoshub.blockapsis.com"
+      ],
+      "explorer": "https://mintscan.io/cosmos",
+      "nativeSymbol": "ATOM",
+      "nativeDecimals": 6
+    },
+    "polkadot": {
+      "name": "Polkadot Mainnet",
+      "rpc": [
+        "wss://rpc.polkadot.io"
+      ],
+      "api": "https://polkadot.api.subscan.io/api/scan",
+      "explorer": "https://polkadot.subscan.io",
+      "nativeSymbol": "DOT",
+      "nativeDecimals": 10
+    },
+    "stacks": {
+      "name": "Stacks Mainnet",
+      "api": "https://api.mainnet.hiro.so",
+      "rpc": [
+        "https://stacks-node-api.mainnet.stacks.co"
+      ],
+      "explorer": "https://explorer.stacks.co",
+      "nativeSymbol": "STX",
+      "nativeDecimals": 6
+    }
+  },
+  "priceApis": {
+    "coingecko": {
+      "url": "https://api.coingecko.com/api/v3",
+      "endpoints": {
+        "simplePrice": "/simple/price"
+      },
+      "rateLimit": {
+        "requestsPerMinute": 10,
+        "requiresApiKey": false
+      }
+    }
+  },
+  "notes": {
+    "rpcEndpoints": "Public RPC endpoints may have rate limits. Consider using your own node or paid RPC service for production.",
+    "apiKeys": "Some chains (Cardano, Polkadot) work best with API keys from their respective services.",
+    "security": "Never expose your seed phrase or private keys. All derivations should be local only."
+  }
+}

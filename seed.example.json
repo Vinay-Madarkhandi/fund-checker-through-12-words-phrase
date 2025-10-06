@@ -1,0 +1,17 @@
+{
+  "seed": "YOUR 12 OR 24 WORD SEED PHRASE GOES HERE",
+  "_instructions": {
+    "description": "This file contains your BIP39 seed phrase for wallet auditing",
+    "format": "Replace the seed value above with your actual 12 or 24 word mnemonic phrase",
+    "example_12_words": "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12",
+    "example_24_words": "word1 word2 ... word24",
+    "security_notes": [
+      "⚠️  NEVER share this file or commit it to version control",
+      "⚠️  This seed phrase gives full access to your wallets",
+      "⚠️  The tool will only use it locally for read-only address derivation",
+      "⚠️  You will be prompted to confirm before the seed is used",
+      "⚠️  Add seed.json to .gitignore immediately"
+    ],
+    "validation": "The tool will validate that your seed phrase is a valid BIP39 mnemonic before use"
+  }
+}

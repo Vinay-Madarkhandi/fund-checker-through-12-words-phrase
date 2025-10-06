@@ -1,0 +1,46 @@
+{
+  "name": "multi-chain-wallet-auditor",
+  "version": "1.0.0",
+  "description": "Audit wallet balances across all major blockchains from a single seed phrase",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "audit": "node src/index.js --addresses 5",
+    "setup": "node setup.js",
+    "test": "echo \"Run 'npm start' to audit your wallet\""
+  },
+  "keywords": [
+    "blockchain",
+    "wallet",
+    "audit",
+    "multi-chain",
+    "bip39",
+    "ethereum",
+    "solana",
+    "bitcoin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^5.1.0",
+    "@mysten/sui.js": "^0.54.1",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.2",
+    "axios": "^1.7.2",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "commander": "^12.1.0",
+    "ed25519-hd-key": "^1.3.0",
+    "ethers": "^6.13.1",
+    "p-limit": "^5.0.0",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
