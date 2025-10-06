@@ -52,7 +52,7 @@ A comprehensive Node.js tool that checks your cryptocurrency balances across ALL
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Vinay-Madarkhandi/fund-checker-through-12-words-phrase
 cd scripts
 ```
 
