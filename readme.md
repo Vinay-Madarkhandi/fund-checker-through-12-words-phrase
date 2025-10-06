@@ -363,50 +363,6 @@ The `.gitignore` automatically excludes:
    - Verify you're checking the right blockchain
    - Check if the token is on a different network
 
-### Sui wallet not found (Slush Wallet users)
-**Problem:** Slush Wallet with Google login uses different keys
-
-**Solution:** Use the direct checker:
-```bash
-node check-sui-direct.js
-```
-Edit the file and replace the address with yours.
-
----
-
-## 📚 Advanced Usage
-
-### Check Specific Address Directly
-
-For Sui (useful for social login wallets):
-```bash
-node check-sui-direct.js
-```
-
-Edit the file to change the address being checked.
-
-### Custom Derivation Paths
-
-Edit `src/derivation.js` to add custom paths:
-```javascript
-const DERIVATION_PATHS = {
-  myCustomPath: "m/44'/60'/5'/0", // Your custom path
-};
-```
-
-### API Key Configuration (Optional)
-
-Some chains work better with API keys. Edit `config/chains.json`:
-```json
-{
-  "ethereum": {
-    "rpc": "https://eth-mainnet.g.alchemy.com/v2/YOUR_KEY"
-  }
-}
-```
-
----
-
 ## 🤝 Contributing
 
 Found a bug or want to add a blockchain?
@@ -427,14 +383,6 @@ newchain: {
   nativeCurrency: 'NEW'
 }
 ```
-
----
-
-## 📝 License
-
-MIT License - See LICENSE file for details
-
----
 
 ## ⚠️ Disclaimer
 
